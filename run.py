@@ -90,12 +90,8 @@ def main():
     logging.info(args)
     logging.info("device: {}".format(device))
     if args.dataset == "POLYVORE":
-        NUM_USERS = 2173
-        NUM_ITEMS = 7038
         PADDING_IDX = NUM_ITEMS
     elif args.dataset == "IQON":
-        NUM_USERS = 834
-        NUM_ITEMS = 3835
         PADDING_IDX = NUM_ITEMS
 
     # Load Dataset
